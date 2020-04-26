@@ -15,6 +15,7 @@ contract Election {
     // Store Candidates Count
     uint public candidatesCount;
 
+    // Constructor
     constructor() public {
         addCandidate("Candidate 1");
         addCandidate("Candidate 2");
