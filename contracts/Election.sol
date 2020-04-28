@@ -16,6 +16,7 @@ contract Election {
     uint public candidatesCount;
 
     // Constructor
+    // by default 2 candidate added
     constructor() public {
         addCandidate("Candidate 1");
         addCandidate("Candidate 2");
