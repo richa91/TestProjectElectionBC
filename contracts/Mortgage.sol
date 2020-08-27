@@ -1,4 +1,4 @@
-pragma solidity >=0.4.23 <0.7.0;
+pragma solidity >=0.4.23 <=0.7.0;
 
 contract Mortgage{
     constructor() public{
@@ -6,6 +6,8 @@ contract Mortgage{
         loan.status = STATUS_INITIATED;
         balances[msg.sender] = 1000000;
     }
+
+    //Adding test
 
     address loanApplicant;
 
