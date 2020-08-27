@@ -7,8 +7,6 @@ contract Mortgage{
         balances[msg.sender] = 1000000;
     }
 
-    //Adding test
-
     address loanApplicant;
 
     event LineReleased(address _owner);
