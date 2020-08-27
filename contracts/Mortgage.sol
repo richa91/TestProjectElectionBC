@@ -7,6 +7,7 @@ contract Mortgage{
         balances[msg.sender] = 1000000;
     }
 
+    //Added Comment to check CICD
     address loanApplicant;
 
     event LineReleased(address _owner);
