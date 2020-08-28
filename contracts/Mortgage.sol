@@ -8,6 +8,7 @@ contract Mortgage{
     }
 
     //Added Comment to check CICD
+    //Added comment to check CICD - Richa
     address loanApplicant;
 
     event LineReleased(address _owner);
