@@ -7,7 +7,6 @@ contract Mortgage{
         balances[msg.sender] = 1000000;
     }
 
-    //Added Comment to check CICD
     //Added comment to check CICD - Richa
     address loanApplicant;
 
